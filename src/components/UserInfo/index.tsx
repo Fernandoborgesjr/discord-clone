@@ -9,6 +9,7 @@ import {
   HeadphoneIcon,
   SettingsIcon,
 } from "./styles";
+
 const UserInfo: React.FC = () => {
   return (
     <Container>
