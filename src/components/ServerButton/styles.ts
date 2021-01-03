@@ -58,5 +58,17 @@ export const Button = styled.button<Props>`
     border-radius: 16px;
     background-color: ${(props) =>
       props.isHome ? "var(--rocketseat)" : "var(--discord)"};
+
+    &:before {
+      width: 9px;
+      height: 40px;
+      position: absolute;
+      left: -17px;
+      top: calc(100% / 2 - 20px);
+      background-color: var(--white);
+      border-radius: 3px;
+      content: "";
+      display: inline;
+    }
   }
 `;
